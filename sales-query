@@ -1,0 +1,33 @@
+create table salestb(
+SaleID INT primary key,
+Date VARCHAR(20),
+ProductID VARCHAR(10),
+ProductName VARCHAR(20),
+QuantitySold INT,
+SalePrice DECIMAL(10,2),
+TotalSaleAmount INT
+);
+
+INSERT into salestb (SaleID, Date, ProductID, ProductName, QuantitySold, SalePrice, TotalSaleAmount) VALUES
+(1, '2023-10-01', 'P001', 'Wireless Mouse', 2, 25, 50),
+(2, '2023-10-02', 'P002', 'Bluetooth Keyboard', 1, 55, 55),
+(3, '2023-10-03', 'P003', 'USB-C Adapter', 3, 12, 36),
+(4, '2023-10-04', 'P004', 'Laptop Stand', 2, 40, 80),
+(5, '2023-10-05', 'P005', 'Smartwatch', 1, 200, 200),
+(6, '2023-10-06', 'P006', 'Portable Charger', 4, 30, 120),
+(7, '2023-10-07', 'P007', 'Gaming Headset', 2, 60, 120),
+(8, '2023-10-08', 'P008', 'Mechanical Keyboard', 3, 150, 450),
+(9, '2023-10-09', 'P009', 'External Hard Drive', 1, 75, 75),
+(10, '2023-10-10', 'P010', 'Wireless Earbuds', 2, 100, 200),
+(11, '2023-10-11', 'P002', 'Bluetooth Keyboard', 2, 55, 110),
+(12, '2023-10-12', 'P001', 'Wireless Mouse', 3, 25, 75),
+(13, '2023-10-13', 'P006', 'Portable Charger', 1, 30, 30),
+(14, '2023-10-14', 'P003', 'USB-C Adapter', 2, 12, 24),
+(15, '2023-10-15', 'P005', 'Smartwatch', 3, 200, 600),
+(16, '2023-10-16', 'P007', 'Gaming Headset', 1, 60, 60),
+(17, '2023-10-17', 'P008', 'Mechanical Keyboard', 2, 150, 300),
+(18, '2023-10-18', 'P010', 'Wireless Earbuds', 3, 100, 300),
+(19, '2023-10-19', 'P009', 'External Hard Drive', 2, 75, 150),
+(20, '2023-10-20', 'P004', 'Laptop Stand', 3, 40, 120);
+
+SELECT * FROM salestb;
