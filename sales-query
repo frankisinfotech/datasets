@@ -1,12 +1,4 @@
-create table salestb(
-SaleID INT primary key,
-Date VARCHAR(20),
-ProductID VARCHAR(10),
-ProductName VARCHAR(20),
-QuantitySold INT,
-SalePrice DECIMAL(10,2),
-TotalSaleAmount INT
-);
+create table salestb(SaleID INT primary key, Date VARCHAR(20), ProductID VARCHAR(10), ProductName VARCHAR(20), QuantitySold INT, SalePrice DECIMAL(10,2), TotalSaleAmount INT);
 
 INSERT into salestb (SaleID, Date, ProductID, ProductName, QuantitySold, SalePrice, TotalSaleAmount) VALUES
 (1, '2023-10-01', 'P001', 'Wireless Mouse', 2, 25, 50),
