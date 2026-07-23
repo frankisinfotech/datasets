@@ -1,0 +1,21 @@
+SaleID,Date,ProductID,ProductName,QuantitySold,SalePrice,TotalSaleAmount
+1,01-10-2023,P001,Wireless Mouse,2,25,50
+2,02-10-2023,P002,Bluetooth Keyboard,1,55,55
+3,03-10-2023,P003,USB-C Adapter,3,12,36
+4,04-10-2023,P004,Laptop Stand,2,40,80
+5,05-10-2023,P005,Smartwatch,1,200,200
+6,06-10-2023,P006,Portable Charger,4,30,120
+7,07-10-2023,P007,Gaming Headset,2,60,120
+8,08-10-2023,P008,Mechanical Keyboard,3,150,450
+9,09-10-2023,P009,External Hard Drive,1,75,75
+10,10-10-2023,P010,Wireless Earbuds,2,100,200
+11,11-10-2023,P002,Bluetooth Keyboard,2,55,110
+12,12-10-2023,P001,Wireless Mouse,3,25,75
+13,13-10-2023,P006,Portable Charger,1,30,30
+14,14-10-2023,P003,USB-C Adapter,2,12,24
+15,15-10-2023,P005,Smartwatch,3,200,600
+16,16-10-2023,P007,Gaming Headset,1,60,60
+17,17-10-2023,P008,Mechanical Keyboard,2,150,300
+18,18-10-2023,P010,Wireless Earbuds,3,100,300
+19,19-10-2023,P009,External Hard Drive,2,75,150
+20,20-10-2023,P004,Laptop Stand,3,40,120
